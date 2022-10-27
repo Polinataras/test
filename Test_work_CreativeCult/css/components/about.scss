@@ -1,0 +1,13 @@
+.about {
+    &__list {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        flex: 1;
+        width: 50%;
+        &--right {
+            padding: 104px 222px 104px 80px;
+        }
+    }
+}

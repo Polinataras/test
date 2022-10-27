@@ -1,0 +1,23 @@
+/* Regular */
+
+@font-face {
+    font-family: 'GolosText';
+    src: local('GolosText'),
+         url('./fonts/GolosText-Regular.ttf') format('truetype'),
+         url('./fonts/GolosText-Regular.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/GolosText-Regular.woff') format('woff'); 
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* DemiBold */
+
+@font-face {
+    font-family: 'GolosText';
+    src: local('GolosText'),
+         url('./fonts/GolosText-DemiBold.ttf') format('truetype'),
+         url('./fonts/GolosText-DemiBold.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/GolosText-DemiBold.woff') format('woff'); 
+    font-weight: 600;
+    font-style: normal;
+}

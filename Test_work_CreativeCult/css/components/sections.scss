@@ -1,0 +1,21 @@
+.sections {
+        width: 100vw;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        &--main {
+            background: linear-gradient(to right, #F7F7F8 70%, #60C0C3 30%) center center;
+            min-height: 600px;
+        }
+        &--products {
+            min-height: 376px;
+        }
+        &--polair {
+            background-color: $mainColor;
+            min-height: 437px;
+        }
+       
+    
+}

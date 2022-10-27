@@ -1,0 +1,44 @@
+.main {
+    &__desc {
+        &-list{
+            display: flex;
+            align-items: center;
+        }
+   
+    }
+    &__icon{
+        &-list {
+            display: flex;
+            align-items: center;
+        }
+        &-item {
+            margin-right: 16px;
+        }
+        &-img {
+            width: 40px;
+            height: 40px;
+        }
+
+      
+        &-board {
+            margin-left: 70px;
+            margin-top: 45px;
+            filter: drop-shadow(4px 8px 24px rgba(0, 0, 0, 0.2)) drop-shadow(16px 28px 64px rgba(0, 0, 0, 0.16));
+        }
+    }
+  &__title {
+            font-weight: 600;
+            font-size: 33px;
+            color: $darkBlue;
+            margin-bottom: 16px;
+            margin-top: 16px;
+            line-height: 116%;
+            width: 486px;
+        }
+        &__text {
+            font-weight: 400;
+            font-size: 18px;
+            color: $colorBlack;
+            margin-bottom: 56px;
+        }
+}

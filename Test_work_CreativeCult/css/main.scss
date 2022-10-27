@@ -1,0 +1,16 @@
+$containerWidth: 1200px;
+$baseFontSize: 18px;
+$mainColor: #003154;
+$colorBlack: #404040;
+$darkBlue: #003154;
+
+
+@import "./fonts.scss";
+@import "./layout.scss";
+@import "./components/header.scss";
+@import "./components/main-section.scss";
+@import "./components/sections.scss";
+@import "./components/button.scss";
+@import "./components/products.scss";
+@import "./components/polair.scss";
+@import "./components/about.scss";

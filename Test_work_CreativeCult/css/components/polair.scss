@@ -1,0 +1,42 @@
+.polair {
+    color: white;
+    font-size: 23px;
+    text-align: center;
+    margin-bottom: 95px;
+    margin-top: 80px;
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 80px;
+    }
+   
+    &__img {
+        width: 94px;
+        height: 96px;
+        position: absolute;
+        z-index: 0;
+        margin-left: -47px;
+    }
+    &__title {
+        position: relative;
+        z-index: 1;
+        font-weight: 600;
+        font-size: 51px;
+        color: white;
+        display: flex;
+        align-items: center;
+        &-min {
+            font-weight: bold;
+            font-size: 24px;
+            color: white;
+            margin-top: 20px;
+        }
+    }
+    &__text {
+        position: relative;
+        color: white;
+        font-size: 15px;
+        z-index: 1;
+    }
+}
