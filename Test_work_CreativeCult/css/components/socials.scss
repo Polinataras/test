@@ -1,0 +1,23 @@
+.socials__list {
+    display: flex;
+}
+
+.socials__item {
+    margin-right: 15px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.socials__icon-svg {    
+   fill: white;
+  width: 30px;
+  height: 30px;
+
+    &:hover {
+        fill: yellow;
+        transition: 0.5s;
+    }
+   
+}

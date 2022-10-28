@@ -1,0 +1,37 @@
+.help {
+    &__list {
+        display: flex;
+        align-items: flex-end;
+        margin-top: 64px;
+        margin-bottom: 64px;
+    }
+    &__item:not(:first-child) {
+        background: linear-gradient(to bottom, white 50%, #F2F6FB 50%) center center;
+        width: 384px;
+        margin-right: 24px;
+        
+    
+    }
+    &__main {
+        padding: 0px 32px;
+        margin-bottom: 40px;
+        
+    }
+  
+    &__title-dop {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 110%;
+        color: #1E1E1E;
+        margin-bottom: 16px;
+        margin-top: 32px;
+    }
+    &__text-dop {
+        font-size: 15px;
+        color: #404040;
+        margin-bottom: 40px;
+    }
+    &__img {
+        background: linear-gradient(to bottom, white 50%, #F2F6FB 50%) center center;
+    }
+}

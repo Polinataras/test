@@ -6,9 +6,21 @@
     &--white {
         color: $mainColor;    
 
-    &:hover {
-        color: white;
-        background-color: $mainColor;
+        &:hover {
+            color: white;
+            background-color: $mainColor;
+        }
     }
+    &--blue {
+        background-color: $darkBlue; 
+        color: white;  
+        padding: 12px 32px; 
+        
+        margin-bottom: 40px;
+
+        &:hover {
+            color: $darkBlue;
+            background-color: white;
+        }
     }
 }

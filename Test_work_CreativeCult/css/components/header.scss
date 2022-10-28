@@ -55,10 +55,15 @@
 .logo {
     height: 32px;
     width: 201px;
+    fill: $mainColor;
     &-text {
         color: #8F9090;
         font-size: 11px; 
         margin-left: 24px;
         width: 360px;
+    }
+    &--footer {
+        fill: white;
+        margin-bottom: 35px;
     }
 }

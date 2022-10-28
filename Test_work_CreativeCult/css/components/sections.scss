@@ -16,6 +16,25 @@
             background-color: $mainColor;
             min-height: 437px;
         }
-       
+        &--about {
+            min-height: 450px;
+        }
+        &--help {
+            min-height: 740px;
+        }
+        &--catalog {
+            min-height: 510px;
+            background: url(../../img/big.png);
+            background-size: cover;
+        }
+        &--details {
+            min-height: 534px;
+            background-color: $mainColor;
+            border-bottom: solid 0.5px #888888;
+        }
+        &--footer {
+            min-height: 326px;
+            background-color: $mainColor;
+        }
     
 }

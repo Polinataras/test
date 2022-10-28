@@ -1,0 +1,19 @@
+.catalog {
+    margin: 160px 0px 84px 120px;
+    background-color: #F2F6FB;
+    width: 472px;
+    color: $mainColor;
+    &__main {
+        padding: 40px;
+    }
+    &__title {
+        font-size: 29px;
+        line-height: 116%;
+        margin-bottom: 16px;
+        font-weight: 600;
+    }
+    &__text {
+        font-size: 15px;
+        margin-bottom: 40px;
+    }
+}
